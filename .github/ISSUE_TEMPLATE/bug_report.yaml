@@ -1,12 +1,12 @@
-name: Bug Report
-description: File a bug report
+name: Bug / Dev Report
+description: File a report for developers
 title: "[Bug]: "
 labels: [bug, triage]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        Thanks for taking the time to fill out this report!
   - type: checkboxes
     attributes:
       label: Is there an existing issue for this?
@@ -40,7 +40,7 @@ body:
     validations:
       required: true
   - type: input
-    id: permid
+    id: discordid
     attributes:
       label: Discord ID
       description: Your Discord ID
