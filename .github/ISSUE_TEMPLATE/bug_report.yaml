@@ -12,17 +12,17 @@ body:
       label: Is there an existing issue for this?
       description: Please search to see if an issue already exists for the bug you encountered.
       options:
-        - label: I have searched the existing issues
+        - label: I have searched for existing issues
           required: true
   - type: textarea
-    id: desc
+    id: description
     attributes:
       label: Description
       description: Describe the issue that you are facing.
     validations:
       required: true
   - type: textarea
-    id: expected
+    id: behaviour
     attributes:
       label: Expected behaviour
       description: Describe what would be expected instead.
