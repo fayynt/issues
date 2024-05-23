@@ -36,10 +36,10 @@ body:
       placeholder: |
         1. Run this command...
         2. Do this animation...
-        2. Press this key..
+        3. Press this key...
     validations:
       required: true
-      - type: textarea
+  - type: textarea
     id: proof
     attributes:
       label: Proof
