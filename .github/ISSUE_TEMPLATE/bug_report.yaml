@@ -39,6 +39,13 @@ body:
         2. Press this key..
     validations:
       required: true
+      - type: textarea
+    id: proof
+    attributes:
+      label: Proof
+      description: Please upload a video of how you are getting to your issue and include any F8 errors.
+    validations:
+      required: true
   - type: input
     id: discordid
     attributes:
